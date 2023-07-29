@@ -96,7 +96,7 @@ li.selected {
     box-shadow: 2px 2px 6px 0px rgba(81, 91, 117, 0.25);
 }
 
-.quantity {
+.selectedd {
     width: 83px;
     color: rgba(20, 20, 20, 0.80);
     font-family: Rubik. sans-serif;
@@ -106,5 +106,32 @@ li.selected {
     text-transform: uppercase;
     border: none;
     appearance: none;
+    background-image: url("./assets/images/ph_caret-down-bold.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
     
+}
+
+.price {
+    color: rgba(20, 20, 20, 0.80);
+    font-family: Rubik. sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.btn {
+    background: #141414;
+    width: 510px;
+    height: 70px;
+    color: #FFF;
+    font-family: Rubik. sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    border
+
+
 }
