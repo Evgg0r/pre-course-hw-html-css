@@ -3,10 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-style: normal;
+    line-height: normal;
+    font-family: Rubik, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
 section {
     background: #EFF2F9;
     height: 100vh 
-} 
+}
 
 .card {
     width: 1170px;
@@ -30,6 +41,10 @@ section {
     box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
 }
 
+.product-info-block {
+    padding: 0 60px;
+}
+
 .main-title {
     color: rgba(20, 20, 20, 0.90);
     font-family: Montserrat. sans-serif ;
@@ -44,15 +59,22 @@ font-family: Lato;
 font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.16px;
+margin-bottom: 60px;
 }
 
 .text {
     color: rgba(20, 20, 20, 0.70);
+
     font-family: Rubik. sans-serif ;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.18px;
+    margin-bottom: 65px;
+}
+
+.colors {
+    margin-bottom: 65px;
 }
 
 .title {
@@ -62,6 +84,7 @@ letter-spacing: 0.16px;
     font-weight: 400;
     letter-spacing: 0.16px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .circle {
@@ -69,12 +92,13 @@ letter-spacing: 0.16px;
     height: 16px;
     border-radius: 50% ;
     filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+    border-radius: 50%;
 }
 
 .blue{
     background: #013C7D;
 }
-.gren {
+.green {
     background: #63CBA7;
 }
 .red {
@@ -83,7 +107,7 @@ letter-spacing: 0.16px;
 .black{
     background: #141414;
 }
-.yelloy{
+.yellow{
     background: #F2C723;
 }
 
@@ -94,16 +118,14 @@ li.selected {
     padding: 7px;
     border-radius: 50%;
     box-shadow: 2px 2px 6px 0px rgba(81, 91, 117, 0.25);
+    border-radius: 50%;
 }
 
 .selectedd {
-    width: 83px;
-    color: rgba(20, 20, 20, 0.80);
-    font-family: Rubik. sans-serif;
+    width: 80px;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 0.2px;
-    text-transform: uppercase;
+    color: rgba(20, 20, 20, 0.8);
     border: none;
     appearance: none;
     background-image: url("./assets/images/ph_caret-down-bold.svg");
@@ -114,22 +136,19 @@ li.selected {
 
 .price {
     color: rgba(20, 20, 20, 0.80);
-    font-family: Rubik. sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.2px;
     text-transform: uppercase;
 }
+
 .btn {
-    background: #141414;
-    width: 510px;
     height: 70px;
+    width: 100%;
+    background: #141414;
     color: #FFF;
-    font-family: Rubik. sans-serif;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.18px;
-    border
+    margin-top: 75px;
 }
