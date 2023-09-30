@@ -33,6 +33,19 @@ section {
     border-right: 2px solid rgba(20, 20, 20, 0.15);
 }
 
+.main-image-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previews-wrapper {
+display: flex;
+gap: 60px;
+justify-content: center;
+}
+
 .preview {
     width: 80px;
     height: 80px;
