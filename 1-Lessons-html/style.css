@@ -34,7 +34,6 @@ section {
 .product-image-block {
     border-right: 2px solid rgba(20, 20, 20, 0.15);
     min-width: 540px;
-    padding: 0 60px;
     display: flex;
     flex-direction: column;
 }
@@ -68,6 +67,8 @@ justify-content: center;
 }
 
 .product-info-block {
+    display: flex;
+    flex-direction: column;
     padding: 0 60px;
 }
 
