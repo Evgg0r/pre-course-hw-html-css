@@ -29,13 +29,16 @@ section {
 }
 
 .product-image-block {
-    width: 540px;
+    border-right: 540px;
     border-right: 2px solid rgba(20, 20, 20, 0.15);
 }
 
 .preview {
     width: 80px;
-    height: 80px
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .selected-preview {
