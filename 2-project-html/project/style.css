@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
 }
@@ -25,9 +29,15 @@ ul {
 button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-\.title {
+button:hover {
+    transform: translateY(-5px);
+}
+
+.title {
     color:#363940;
     font-size: 32px;
     font-weight: 500;
@@ -251,12 +261,19 @@ input[type="text"] {
 input[type="email"], input[type="password"], input[type="date"], select {
     width: 230px;
     height: 50px;
+    flex-grow: 1;
 }
 
 .stack, 
 fieldset {
     display: flex;
     column-gap: 30px;
+}
+
+.fields-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 fieldset {

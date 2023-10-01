@@ -109,18 +109,20 @@
                     </ul>
                 </div>
 
-                <form action="">
+                <form>
                     <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                    <input type="date">
-                    <select>
-                        <option selected disabled>Country</option>
-                        <option>Belarus</option>
-                        <option>China</option>
-                        <option>USA</option>
-                    </select>
+                    <div class="fields-wrapper">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <input type="date">
 
+                        <select>
+                            <option selected disabled>Country</option>
+                            <option>Belarus</option>
+                            <option>China</option>
+                            <option>USA</option>
+                        </select>
+                    </div>
 
                     <div class="stack">
                         <label for="front">
@@ -159,7 +161,7 @@
 
                     <textarea placeholder="Something else about you..."></textarea>
 
-                    <input type="submit">
+                    <input class="button" type="submit" value="registration">
                 </form>
             </div>
         </div>
@@ -168,5 +170,4 @@
         <small>Copyright © 2023. All rights reserved.</small>
     </footer>
 </body>
-
 </html>
