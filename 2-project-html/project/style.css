@@ -10,7 +10,7 @@
 
 html,
 body {
-    font-family: 'Rubik' sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
 }
 
@@ -84,6 +84,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 800px;
 }
 
 .main-title {
@@ -94,8 +95,9 @@ button {
     margin-bottom: 30px; 
     }
 
-    .main .text {
+.main .text {
         margin-bottom: 40px;
+        max-width: 380px;
     }    
 
 .button {
@@ -120,6 +122,12 @@ button {
 .rates-section {
     background: #F9FAFC;
     padding: 100px 0;
+}
+
+.rates-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rates-section .title {
@@ -193,6 +201,11 @@ th, td { /* Стилизуем по названию тега */
     padding: 100px 0;
 }
 
+.account-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .create-account-section .title {
     margin-bottom: 50px;
 }
@@ -212,6 +225,9 @@ th, td { /* Стилизуем по названию тега */
 form {
     width: 100%;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 input, select, fieldset, textarea {
@@ -235,6 +251,12 @@ input[type="text"] {
 input[type="email"], input[type="password"], input[type="date"], select {
     width: 230px;
     height: 50px;
+}
+
+.stack, 
+fieldset {
+    display: flex;
+    column-gap: 30px;
 }
 
 fieldset {
