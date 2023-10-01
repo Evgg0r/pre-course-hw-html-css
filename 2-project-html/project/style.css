@@ -264,6 +264,10 @@ input[type="email"], input[type="password"], input[type="date"], select {
     flex-grow: 1;
 }
 
+
+input[type="radio"], input[type="checkbox"], input[type="date"], select {
+    cursor: pointer;
+}
 .stack, 
 fieldset {
     display: flex;
