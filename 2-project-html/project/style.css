@@ -80,6 +80,12 @@ button {
 
 /* ================ Стили для 1-й секции ================ */
 
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main-title {
     color: #363940;
     font-size: 58px;
@@ -103,6 +109,10 @@ button {
     line-height: 19.6px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+}
+
+.main-img {
+    align-self: flex-end;
 }
 
 /* ================ Стили для 2-й секции ================ */
