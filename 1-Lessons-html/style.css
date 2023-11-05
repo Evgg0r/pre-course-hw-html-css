@@ -24,7 +24,7 @@ section {
 
 .card {
     width: 1170px;
-    height: 800px;
+    min-height: 800px;
     background: #FFF;
     box-shadow: 20px 20px 40px 0px rgba(81, 91, 117, 0.25);
     padding: 60px 0 80px;
@@ -205,3 +205,19 @@ margin-bottom: 60px;
     transform: skewX(-15deg);
     background-color: #9722d2;
 }
+
+@media screen and (max-width: 1280px) {
+    section {
+        height: 100%;
+    }
+    .card {
+        width: 690px;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .product-image-block {
+        border-right: none;
+        border-bottom: 2px solid rgba(22, 20, 20, 0.15);
+    }
+} 
