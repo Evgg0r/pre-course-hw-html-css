@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1280px;
+    height: 1777px;
+    background: #fff;
+}
+
+.header {
+    box-shadow: 0 1px 1px 0 rgba(175, 175, 175, 0.4);
+    padding: 16px 0 8px 64px;
+    margin-bottom: 30px;
+}
+
+.logo-bank {
+    width: 163px;
+    height: 48px;
+}
+
+.logo-bank-name {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.user-page {
+    padding-left: 64px;
+}
+
+h1 {
+    height: 36px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.user-page {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.user-cards {
+    margin-top: 18px;
+}
+
+.card {
+    border: 1px solid #dfdfdf;
+    border-radius: 12px;
+    width: 473px;
+    height: 733px;
+    padding: 24px 48px
+}
+
+.card-color1 {
+    border-radius: 12px;
+    width: 376px;
+    height: 204px;
+    padding: 28px 24px 20px;
+    color: #fff;
+    margin-bottom: 28px;
+    background-image: url(./assets/images/Card-Mask.png);
+    fill: linear-gradient(175deg, #9c2cf3 0%, #3a6ff9 100%);
+    background-color: rgba(8, 72, 233, 0);
+}
+
+/* .card-color1 {
+    
+    background: linear-gradient(175deg, #9c2cf3 0%, #3a6ff9 100%);
+} */
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.curBal {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.54;
+    margin-bottom: 50px;
+}
+
+
+.balans-card {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.number-card {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.date-card {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+}
+
+.his-tran {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.transaction-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.transaction {
+    width: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.transaction-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.transaction-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-info-h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #15223c;
+}
+
+.transaction-info-span {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #15223c;
+}
+
+.transaction-plus {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    color: #2dd683;
+
+}
+
+.transaction-minus {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    color: #e74a51;
+}

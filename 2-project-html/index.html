@@ -4,204 +4,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Bank-Ubator</title>
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="/2-project-html/assets/images/logo-bank.png" alt="logo-bank">
-            <span>Bank-Ubator</span>
+    <header class="header">
+        <div class="logo-bank">
+            <img src="/2-project-html/assets/images/logo-bank.svg" alt="logo-bank">
+            <span class="logo-bank-name">Bank-Ubator</span>
         </div>
     </header>
-    <section>
+    <section class="user-page">
         <h1>Welcome Back, Evgeniy👋</h1>
-        <h2>My Cards</h2>
-        <div>
-            <article>
-                <h3>Debit Card</h3>
-                <span>Current Balance</span>
-                <span>$5750,53</span>
-                <span>5282 3456 7890 1289</span>
-                <img src="/2-project-html/assets/images/mastercard_logo.png" alt="mastercard_logo">
-                <span>09/25</span>
-            </article>
-            <section>
-                <h3>History Transactions</h3>
-                <div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Apr 27, 22</span>
+        <span class="user-page-span">My Cards</span>
+        <section class="user-cards">
+            <div class="card">
+                <article class="card-color1">
+                    <h2>Debit Card</h2>
+                    <img src="/2-project-html/assets/images/mastercard_logo.png" alt="mastercard_logo">
+                    <span class=curBal>Current Balance</span>
+                    <span class="balans-card">$5750,53</span>
+                    <span class="number-card">5282 3456 7890 1289</span>
+                    <span class="date-card">09/25</span>
+                </article>
+                <section>
+                    <h2 class="his-tran">History Transactions</h2>
+                    <div class="transaction-main-container">
+                        <div class="transaction">
+                            <div class="transaction-div">
+                                <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                                <div class="transaction-info">
+                                    <h3 class="transaction-info-h3">Order Revenue</h3>
+                                    <span class="transaction-info-span">Apr 27, 22</span>
+                                </div>
+                            </div>
+                            <span class="transaction-plus">+ $874</span>
                         </div>
-                        <span>+ $874</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
-                        <div>
-                            <h4>Withdrawal Initiated</h4>
-                            <span>Apr 25, 22</span>
+                        <div class="transaction">
+                            <div class="transaction-div">
+                                <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                                <div class="transaction-info">
+                                    <h3 class="transaction-info-h3">Order Revenue</h3>
+                                    <span class="transaction-info-span">Apr 27, 22</span>
+                                </div>
+                            </div>
+                            <span class="transaction-plus">+ $874</span>
                         </div>
-                        <span>- $2490</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Mar 1, 22</span>
+                        <div class="transaction">
+                            <div class="transaction-div">
+                                <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                                <div class="transaction-info">
+                                    <h3 class="transaction-info-h3">Order Revenue</h3>
+                                    <span class="transaction-info-span">Apr 27, 22</span>
+                                </div>
+                            </div>
+                            <span class="transaction-plus">+ $874</span>
                         </div>
-                        <span>+ $126</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
-                        <div>
-                            <h4>Amazon, Order #3213</h4>
-                            <span>Mar 1, 22</span>
+                        <div class="transaction">
+                            <div class="transaction-div">
+                                <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                                <div class="transaction-info">
+                                    <h3 class="transaction-info-h3">Order Revenue</h3>
+                                    <span class="transaction-info-span">Apr 27, 22</span>
+                                </div>
+                            </div>
+                            <span class="transaction-plus">+ $874</span>
                         </div>
-                        <span>- $290</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon.svg">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Mar 1, 22</span>
+                        <div class="transaction">
+                            <div class="transaction-div">
+                                <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                                <div class="transaction-info">
+                                    <h3 class="transaction-info-h3">Order Revenue</h3>
+                                    <span class="transaction-info-span">Apr 27, 22</span>
+                                </div>
+                            </div>
+                            <span class="transaction-plus">+ $874</span>
                         </div>
-                        <span>+ $126</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon.svg">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Mar 1, 22</span>
+                        <div class="transaction">
+                            <div class="transaction-div">
+                                <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                                <div class="transaction-info">
+                                    <h3 class="transaction-info-h3">Order Revenue</h3>
+                                    <span class="transaction-info-span">Apr 27, 22</span>
+                                </div>
+                            </div>
+                            <span class="transaction-plus">+ $874</span>
                         </div>
-                        <span>+ $126</span>
+                        
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
+            <!-- <div class="card">
+                <article>
+                    <h2>Credit Card</h2>
+                    <span>Current Balance</span>
+                    <span>€1.343,53</span>
+                    <span>9232 6543 2101 2032</span>
+                    <img src="/2-project-html/assets/images/visa_logo.svg" alt="visa_logo">
+                    <span>04/26</span>
+                    <div>
+                        <img src="/2-project-html/assets/images/lock-1.svg" alt="lock-1">
+                        <p>Card is temporarily blocked</p>
+                    </div>
+                </article>
+                <section>
+                    <h2>History Transactions</h2>
+                    <div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
+                            <div>
+                                <h3>Withdrawal Initiated</h3>
+                                <span>Apr 28, 22</span>
+                            </div>
+                            <span>- €2490</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                            <div>
+                                <h3>Order Revenue</h3>
+                                <span>Apr 27, 22</span>
+                            </div>
+                            <span>+ €874</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
+                            <div>
+                                <h3>AppStore, Order #3213</h3>
+                                <span>Apr 15, 22</span>
+                            </div>
+                            <span>- €290</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                            <div>
+                                <h3>Order Revenue</h3>
+                                <span>Apr 14, 22</span>
+                            </div>
+                            <span>+ €132</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                            <div>
+                                <h3>Order Revenue</h4>
+                                    <span>Apr 1, 22</span>
+                            </div>
+                            <span>+ €1126</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="card">
+                <article>
+                    <h2>Debit Card</h2>
+                    <span>Current Balance</span>
+                    <span>£3.263,65</span>
+                    <span>5543 2593 4958 2930</span>
+                    <img src="/2-project-html/assets/images/mastercard_logo.png" alt="mastercard_logo">
+                    <span>03/28</span>
+                </article>
+                <section>
+                    <h2>History Transactions</h2>
+                    <div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                            <div>
+                                <h3>Order Revenue</h3>
+                                <span>Apr 27, 22</span>
+                            </div>
+                            <span>+ £874</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
+                            <div>
+                                <h3>Withdrawal Initiated</h3>
+                                <span>Apr 25, 22</span>
+                            </div>
+                            <span>- £2490</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                            <div>
+                                <h3>Order Revenue</h3>
+                                <span>Mar 1, 22</span>
+                            </div>
+                            <span>+ £423</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
+                            <div>
+                                <h3>Amazon, Order #3213</h3>
+                                <span>Mar 1, 22</span>
+                            </div>
+                            <span>- £290</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon.svg" alt="icon">
+                            <div>
+                                <h3>Order Revenue</h3>
+                                <span>Mar 1, 22</span>
+                            </div>
+                            <span>+ £925</span>
+                        </div>
+                        <div>
+                            <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
+                            <div>
+                                <h3>Withdrawal Initiated</h3>
+                                <span>Mar 5, 22</span>
+                            </div>
+                            <span>- £1290</span>
+                        </div>
+                    </div> -->
+        </section>
         </div>
-        <div>
-            <article>
-                <h3>Credit Card</h3>
-                <span>Current Balance</span>
-                <span>€1.343,53</span>
-                <span>9232 6543 2101 2032</span>
-                <img src="/2-project-html/assets/images/visa_logo.svg" alt="visa_logo">
-                <span>04/26</span>
-                <div>
-                    <img src="/2-project-html/assets/images/lock-1.svg" alt="lock-1">
-                    <p>Card is temporarily blocked</p>
-                </div>
-            </article>
-            <section>
-                <h3>History Transactions</h3>
-                <div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
-                        <div>
-                            <h4>Withdrawal Initiated</h4>
-                            <span>Apr 28, 22</span>
-                        </div>
-                        <span>- €2490</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Apr 27, 22</span>
-                        </div>
-                        <span>+ €874</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
-                        <div>
-                            <h4>AppStore, Order #3213</h4>
-                            <span>Apr 15, 22</span>
-                        </div>
-                        <span>- €290</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Apr 14, 22</span>
-                        </div>
-                        <span>+ €132</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Apr 1, 22</span>
-                        </div>
-                        <span>+ €1126</span>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div>
-            <article>
-                <h3>Debit Card</h3>
-                <span>Current Balance</span>
-                <span>£3.263,65</span>
-                <span>5543 2593 4958 2930</span>
-                <img src="/2-project-html/assets/images/mastercard_logo.png" alt="mastercard_logo">
-                <span>03/28</span>
-            </article>
-            <section>
-                <h3>History Transactions</h3>
-                <div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Apr 27, 22</span>
-                        </div>
-                        <span>+ £874</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
-                        <div>
-                            <h4>Withdrawal Initiated</h4>
-                            <span>Apr 25, 22</span>
-                        </div>
-                        <span>- £2490</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Mar 1, 22</span>
-                        </div>
-                        <span>+ £423</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
-                        <div>
-                            <h4>Amazon, Order #3213</h4>
-                            <span>Mar 1, 22</span>
-                        </div>
-                        <span>- £290</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon.svg" alt="icon">
-                        <div>
-                            <h4>Order Revenue</h4>
-                            <span>Mar 1, 22</span>
-                        </div>
-                        <span>+ £925</span>
-                    </div>
-                    <div>
-                        <img src="/2-project-html/assets/images/icon2.png" alt="icon2">
-                        <div>
-                            <h4>Withdrawal Initiated</h4>
-                            <span>Mar 5, 22</span>
-                        </div>
-                        <span>- £1290</span>
-                    </div>
-                </div>
-            </section>
-        </div>
+    </section>
     </section>
 </body>
 
