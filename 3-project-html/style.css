@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #121316;
+}
+
+header {
+    height: 60px;
+    background: #2a2c33;
+}
+
+
+.main-banner {
+    height: 612px;
+}
+
+
+h1 h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.28571
+}
+
+p span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+}
+
+span {
+    color: #b9b9b9;
+}
+
+.film-info {
+    color: #b9b9b9;
+}
+
+.window-search {
+    border-radius: 2px;
+    padding: 6px 12px;
+    width: 220px;
+    height: 36px;
+}
+
+.search {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #939393;
+    margin-left: 50px;
+}
