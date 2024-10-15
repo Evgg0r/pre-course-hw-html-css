@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* текст лого{
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #de0051;
+} */
+
+body {
+    width: 1280px;
+    height: 9377px;
+    background: #fff;
+    color: #000;
+    /*цвет текста */
+}
+
+header {
+    height: 60px;
+}
+
+main-banner {
+    height: 329;
+}
+
+.info-banner {
+    width: 553px;
+    height: 242px;
+}
+
+h1 {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    text-align: center;
+}
+
+.text-banner {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.main-section {
+    padding-left: 64px;
+}
+
+h2 {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 46px;
+}
+
+h3 {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+}
+
+
+.type-of-dish {
+    width: 1152px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+    background: #f7f7f7;
+    padding: 29px 230px 17px 36px;
+}
+
+div img {
+    border-radius: 20px;
+    margin: 0 12px 28px 0;
+}
+
+h4 {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+h5 {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 28px;
+}
+
+ul {
+    list-style-position: inside;
+    /* Маркеры внутри блока */
+    margin-bottom: 58px;
+}
+
+li {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-;
+}
+
+li span {
+    font-weight: 600;
+}
+
+.St-Dur {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #6d6d6d;
+    margin-bottom: 11px;
+}
+
+div span {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33333;
+    margin-top: 25px;
+}
+
+div p {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+hr {
+    width: 1152px;
+    stroke-width: 1px;
+    stroke: #000;
+    margin: 35px 0;
+}
