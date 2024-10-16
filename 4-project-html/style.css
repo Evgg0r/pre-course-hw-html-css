@@ -13,6 +13,7 @@
 body {
     background: #0a0a0a;
     color: #fff;
+    padding-left: 64px;
 }
 
 
@@ -22,6 +23,7 @@ h1 {
     font-size: 200px;
     line-height: 0.85;
     letter-spacing: -0.01em;
+    margin-bottom: 52px;
 }
 
 .mantra {
@@ -30,6 +32,7 @@ h1 {
     font-size: 16px;
     line-height: 1.8125;
     opacity: 0.5;
+    margin-bottom: 50px;
 }
 
 button {
@@ -43,6 +46,15 @@ button {
     height: 48px;
     border-radius: 4px;
     background: #ceff1b;
+    margin-bottom: 97px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 0.75;
+    margin-bottom: 45px;
 }
 
 .exercises {
@@ -50,11 +62,15 @@ button {
     height: 432px;
     border-radius: 4px;
     background: #1e1e1e;
+    padding: 16px 210px 46px 24px;
+    margin-bottom: 24px;
 }
 
 hr {
+    width: 1152px;
     stroke-width: 1px;
     stroke: #fff;
+    margin: 36px 0 24px 0;
 }
 
 h3 {
@@ -63,6 +79,7 @@ h3 {
     font-size: 40px;
     line-height: 1.75;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 h4 {
@@ -70,6 +87,16 @@ h4 {
     font-weight: 500;
     font-size: 28px;
     line-height: 1.60714;
+}
+
+ol {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+div img {
+    border-radius: 4px;
+    margin-right: 24px;
 }
 
 p {
