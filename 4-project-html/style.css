@@ -4,10 +4,27 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 831px;
+    /* width: 1450px; */
+}
+
+.girl {
+    position: relative;
+    z-index: 10;
+    left: 300px;
+}
+
 .hatch {
-    width: 673px;
-    height: 394px;
+    position: relative;
     transform: rotate(10deg);
+    left: 900px;
+    bottom: 450px;
+}
+
+.logo {
+    position: relative;
+    bottom: 670px;
 }
 
 body {
@@ -24,6 +41,19 @@ h1 {
     line-height: 0.85;
     letter-spacing: -0.01em;
     margin-bottom: 52px;
+    position: relative;
+    bottom: 500px;
+}
+
+h1 > span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 0.85;
+    letter-spacing: -0.01em;
+    margin-bottom: 52px;
+    position: relative;
+    left: 90px;
 }
 
 .mantra {

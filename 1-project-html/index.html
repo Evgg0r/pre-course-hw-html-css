@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -32,7 +33,7 @@
         <h1 class="main-title">Markup achievement</h1>
         <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
         <button class="button">Learn More</button>
-        <img class="main-img"src="/1-project-html/assets/images/image.png" alt="image">
+        <img class="main-img" src="/1-project-html/assets/images/image.png" alt="image">
     </section>
     <section class="rates-section">
         <h2 class="title">Rates</h2>
@@ -70,16 +71,17 @@
             </tr>
         </table>
     </section>
-    <section>
-        <h2>Create your free account</h2>
-        <p>Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of
+    <section class="create-account-section">
+        <h2 class="title">Create your free account</h2>
+        <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The
+            majority of
             people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see
             things from a different perspective. Whenever we are dreaming, we can be who or what we want to be,
             regardless of the fact that in real life.</p>
-        <ul>
-            <li>Easy setup, fast start</li>
-            <li>Free forever for core features</li>
-            <li>14-day trial of premium features</li>
+        <ul class="list">
+            <li class="list-item">Easy setup, fast start</li>
+            <li class="list-item">Free forever for core features</li>
+            <li class="list-item">14-day trial of premium features</li>
         </ul>
         <form action="">
             <input type="text" placeholder="Full name">
@@ -94,19 +96,21 @@
                 <option>Ukraine</option>
             </select>
 
-            <label for="front">
-                <input id="front" type="radio" name="stack" checked>
-                Frontend
-            </label>
+            <div>
+                <label for="front">
+                    <input id="front" type="radio" name="stack" checked>
+                    Frontend
+                </label>
 
-            <label for="back">
-                <input id="back" type="radio" name="stack">
-                Backend
-            </label>
+                <label for="back">
+                    <input id="back" type="radio" name="stack">
+                    Backend
+                </label>
+            </div>
 
             <fieldset>
                 <legend>Favorite Technologies</legend>
-                
+
                 <label for="html">
                     <input id="html" type="checkbox" name="html" checked>
                     HTML
@@ -133,7 +137,7 @@
             <input type="submit">
         </form>
     </section>
-    <footer>
+    <footer class="footer">
         <small>Copyright © 2023. All rights reserved.</small>
     </footer>
 </body>

@@ -142,3 +142,98 @@ td {
 .table-footer {
     padding: 30px
 }
+
+/* ================стили для для третьей секции */
+
+.create-account-section {
+    padding: 100px;
+}
+
+.list-item {
+    list-style-image: url(./assets/images/Check.svg);
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.create-account-section .title {
+    margin-bottom: 50px;
+}
+
+.create-account-section .text {
+    margin-bottom: 40px;
+    width: 500px;
+}
+
+input,
+select,
+fieldset,
+textarea {
+    border: 1px solid #95a1bb;
+    border-radius: 4px;
+    padding: 14px 15px;
+}
+
+input,
+select,
+fieldset,
+textarea,
+label,
+legend,
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #95a1bb;
+    font-family: inherit;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 230px;
+    height: 50px;
+}
+
+fieldset {
+    width: 100%;
+    padding: 30px 15px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+
+form .button {
+    width: 100%;
+}
+
+select {
+    background: url(./assets/images/Arrow-down.svg) no-repeat right 15px top 50%;
+    appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indecator {
+    background: url(./assets/images/Calendar.svg) no-repeat;
+}
+
+footer {
+    background: #0a61f7;
+    text-align: center;
+    padding: 20px 0;
+}
+
+small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #fff;
+}
