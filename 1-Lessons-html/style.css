@@ -14,6 +14,9 @@ body {
 section {
     background-color: #eff2f9;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
@@ -26,22 +29,47 @@ ul {
     box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
     background: #fff;
     padding: 60px 0 70px;
+    display: flex;
 }
 
 .product-img-block {
-    width: 540px;
+    min-width: 540px;
     border-right: 2px solid rgba(20, 20, 20, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.preview-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 60px;
 }
 
 .preview {
     width: 80px;
     height: 80px;
     background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-.review.selected {
+
+.preview.selected, .preview:hover {
     box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
 }
+
+
 
 .product-info-block {
     padding: 0 60px;
@@ -65,6 +93,8 @@ ul {
 .text {
     font-weight: 400;
     font-size: 18px;
+    line-height: 1.66667;
+    letter-spacing: 0.01em;
     color: rgba(20, 20, 20, 0.7);
     margin-bottom: 65px;
     margin-top: 60px;
@@ -91,6 +121,13 @@ ul {
     box-shadow: 2px 2px 4px 0 rgba(81, 91, 117, 0.25);
 }
 
+.circle-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
 .blue {
     background-color: #013C7D;
 }
@@ -111,12 +148,26 @@ ul {
     background-color: #F2C723;
 }
 
-li.selected {
+.circle-list li {
     height: 30px;
     width: 30px;
     padding: 7px;
     border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.circle-list li.selected,
+.circle-list li:hover{
     box-shadow: 2px 2px 6px 0 rgba(81, 91, 117, 0.25);
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper>div {
+    flex-grow: 1;
 }
 
 .quantity {
@@ -157,4 +208,9 @@ li.selected {
     background-color: #141414;
     border: none;
     margin-top: 75px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-5px)
 }
