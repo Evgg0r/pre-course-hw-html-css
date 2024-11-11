@@ -5,15 +5,24 @@
 }
 
 body {
-    width: 1280px;
-    height: 1777px;
     background: #fff;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+
 }
 
 .header {
     box-shadow: 0 1px 1px 0 rgba(175, 175, 175, 0.4);
     padding: 16px 0 8px 64px;
     margin-bottom: 30px;
+    border: 1px solid blue;
 }
 
 .logo {
@@ -22,15 +31,16 @@ body {
 }
 
 .logo-name {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #000;
 }
 
-.user-page {
-    padding-left: 64px;
-}
 
 h1 {
     height: 36px;
@@ -49,6 +59,11 @@ h1 {
 }
 
 .user-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+
     margin-top: 18px;
 }
 
@@ -142,6 +157,7 @@ card-bloc-text .card-text {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid green
 }
 
 .transaction-container {
@@ -149,6 +165,7 @@ card-bloc-text .card-text {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    border: 1px solid purple
 }
 
 .transaction-info {
