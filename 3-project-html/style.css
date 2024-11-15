@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* <================== Сommon styles ==================> */
+
 body {
     color: #fff;
     background-color: #121316;
@@ -15,66 +17,11 @@ body {
     width: 100%;
     height: 100%;
     max-width: 1156px;
-    border: 1px solid red
 }
 
-.main-banner, .container {
+.main-film, .container {
     margin-left: auto;
     margin-right: auto;
-}
-
-header {
-    height: 60px;
-    background: #2a2c33;
-}
-
-.header-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid green 
-}
-
-.search-wrapper {
-    display: flex;
-}
-
-.header-wrapper-img {
-    display: flex;
-    border: 1px solid rgb(107, 128, 0) 
-}
-
-.main-banner {
-    width: 100%;
-    height: 612px;
-    background-image: url("./assets/images/sherlock.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.main-film-info {
-    width: 970px;
-    height: 612px;
-    background: linear-gradient(90deg, #000 17.2%, rgba(0, 0, 0, 0) 100%);
-}
-
-.main-film-info-wrapper {
-    padding: 16px 0 113px;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-film-img-wrapper {
-    padding-bottom: 56px;
-}
-
-.block-info-wrapper {
-    width: 456px;
-    height: 276px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 h1, h2 {
@@ -106,11 +53,23 @@ span {
 }
 
 
-.film-info-details-wrapper {
-    gap: 12px;
-    list-style-type: none;
+
+/* <================== Styles for header ==================> */
+
+header {
+    height: 60px;
+    background: #2a2c33;
+}
+
+.header-wrapper {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-wrapper {
+    display: flex;
 }
 
 .search {
@@ -128,3 +87,77 @@ input {
     background: #2a2c33;
     border: none;
 }
+
+/* <================== Styles for 1 section (main film) ==================> */
+
+
+.main-film {
+    width: 100%;
+    height: 612px;
+    background-image: url("./assets/images/sherlock.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 48px;
+}
+
+.main-film-info {
+    width: 970px;
+    height: 612px;
+    background: linear-gradient(90deg, #000 17.2%, rgba(0, 0, 0, 0) 100%);
+}
+
+.main-film-info-wrapper {
+    padding: 16px 0 113px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-film-img-wrapper {
+    padding-bottom: 56px;
+}   
+
+.header-wrapper-img {
+    display: flex; 
+}
+
+.main-block-info-wrapper {
+    width: 456px;
+    height: 276px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.main-film-summary{
+    padding-bottom: 36px;
+}
+
+.main-film-info-details-wrapper {
+    gap: 12px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* <================== Styles for section 2, 3, 4 (secondary films) ==================> */
+
+.film{
+    margin-bottom: 24px;
+}
+
+.film-wrapper {
+    display: flex;;
+    gap: 24px;
+}
+
+.film-info-details-wrapper {
+    gap: 16px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.film-summary{
+    padding-bottom: 32px;
+}
+
+
