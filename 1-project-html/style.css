@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
 }
@@ -20,14 +24,31 @@ ul {
 button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
+button:hover {
+    transform: translateY(-5px);
+}
 
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
+
+/* ================ styles for header */
 
 .header {
     background: #0a61f7;
     padding: 14px 0;
 }
+
 
 .menu-link {
     font-weight: 500;
@@ -38,7 +59,18 @@ button {
     color: #fff;
 }
 
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 24px
+}
 /* ================стили для первой секции */
+
 
 .main-title {
     font-weight: 500;
@@ -55,6 +87,9 @@ button {
     color: #95a1bb;
     margin-bottom: 40px;
 }
+.main . text{
+    max-width: 380px;
+}
 
 .button {
     border-radius: 4px;
@@ -70,6 +105,22 @@ button {
     color: #fff;
 }
 
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-img {
+    align-self: flex-end;
+}
 /* ================стили для второй секции */
 
 .rates-section {
@@ -142,6 +193,11 @@ td {
 .table-footer {
     padding: 30px
 }
+.rates-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* ================стили для для третьей секции */
 
@@ -153,6 +209,14 @@ td {
     list-style-image: url(./assets/images/Check.svg);
     margin-left: 30px;
     margin-bottom: 15px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .create-account-section .title {
@@ -199,7 +263,28 @@ input[type="date"],
 select {
     width: 230px;
     height: 50px;
+    flex-grow: 1;
 }
+
+input[type="radio"],
+input[type="checkbox"],
+input[type="date"],
+select {
+    cursor: pointer;
+}
+
+
+.stack, fieldset {
+    display: flex;
+    column-gap: 20px;
+}
+
+.fields-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
 
 fieldset {
     width: 100%;
@@ -211,6 +296,8 @@ textarea {
     min-height: 80px;
     resize: none;
 }
+
+
 
 form .button {
     width: 100%;
@@ -237,3 +324,14 @@ small {
     line-height: 1.57143;
     color: #fff;
 }
+
+.account-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.account-info-wrapper{
+    flex-direction: column;
+}
+
