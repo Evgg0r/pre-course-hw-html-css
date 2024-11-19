@@ -8,6 +8,10 @@ header {
     height: 831px;
     /* width: 1450px; */
 }
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+}
 
 .girl {
     position: relative;
@@ -43,6 +47,8 @@ h1 {
     margin-bottom: 52px;
     position: relative;
     bottom: 500px;
+    position: relative;
+    z-index: 8;
 }
 
 h1 > span {
